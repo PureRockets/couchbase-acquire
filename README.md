@@ -1,7 +1,7 @@
 couchbase-acquire
 =================
 
-Data Acquisition with Couchbase Logging
+Data Acquisition with Couchbase Server Logging
 
 This project demonstrates how do acquire sensor data with an Aruduino-style device and log the data in real-time using a Couchbase data store. Either a PC, Linux or Mac system can be used to install Couchbase and the UDP/wireless listener. Other embedded devices (such as the Arduino YUN or Raspberry Pi) can be used instead of the Wasmmote presented here. Generally look for the WiFi Examples in your IDE, and look for a UDP example. I was able to easily capture 100 samples per second with static data. The acquisition of the Waspmote accelerometer is limited to approximately 10 samples per second. You can view the data flowing into Couchbase in real time using the web admin UI.
 
